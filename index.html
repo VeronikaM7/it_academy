@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div>
+                <button style="background: #555555; color: #f65261;" type="button">+ADD MOVIE</button>
+            </div>
+        </div>
+
+        <h1>FIND YOUR MOVIE</h1>
+
+        <form>
+            <input type="text" placeholder="What do you want to watch?" style="width:290px; height:35px;" />
+            <button style="width: 140px; height: 41px; background: #f65261; color: #fff;" type="submit">SEARCH</button>
+        </form>
+    </header>
+    <div class="menu-bar">
+        <nav>
+            <style>
+                ul.menu {
+                    margin: 3px;
+                    padding: 3px;
+                }
+ 
+
+                
+                ul.menu li {
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    background: #424242;
+                    display: inline-block;
+                    font-size: 10px;
+                }
+
+                ul.menu li a {
+                    color: white;
+                    display: block;
+                    padding: 5px 20px;
+                    text-decoration: none;
+                }
+            </style>
+            <ul class=menu>
+                <li><a href="1">ALL</a></li>
+                <li><a href="2">DOCUMENTARY</a></li>
+                <li><a href="3">COMEDY</a></li>
+                <li><a href="4">HORROR</a></li>
+                <li><a href="5">CRIME</a></li>
+            </ul>
+        </nav>
+        <form>
+            <label for="sort-by"></label>
+            <select name="" id="sort-by">
+                <option align="center" value="1">Popular</option>
+                <option align="center" value="1">Release Date</option>
+                <option align="center" value="1">IMDB Score</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
