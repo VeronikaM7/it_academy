@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/фон.jpg');
+    color: rgb(83, 33, 58);
+}
+
+
+@font-face {
+    font-family: 'Lora';
+    font-weight: 600;
+    src: url('./fonts lora/static/Lora-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-weight: 200;
+    src: url('./fonts mulish/static/Mulish-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-weight: 700;
+    src: url('./fonts mulish/static/Mulish-Bold.ttf');
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Mulish';
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Lora';
+    font-weight: 600;
+    color: rgb(113, 82, 128);
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.poem1 {
+    text-align: center;
+    float: left;
+}
+
+.poem2 {
+    text-align: center;
+    float: right;
+}
+
+pre {
+    font-family: 'Mulish';
+    font-weight: 200;
+}
