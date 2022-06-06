@@ -9,19 +9,19 @@ body {
 @font-face {
     font-family: 'Lora';
     font-weight: 600;
-    src: url('./fonts lora/static/Lora-SemiBold.ttf');
+    src: url('./fonts lora/static/Lora-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Mulish';
     font-weight: 200;
-    src: url('./fonts mulish/static/Mulish-ExtraLight.ttf');
+    src: url('./fonts mulish/static/Mulish-ExtraLight.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Mulish';
     font-weight: 700;
-    src: url('./fonts mulish/static/Mulish-Bold.ttf');
+    src: url('./fonts mulish/static/Mulish-Bold.ttf') format('truetype');
 }
 
 
