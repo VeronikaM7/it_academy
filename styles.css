@@ -17,8 +17,8 @@ body {
     background: #616160;
     width: 90%;
     margin: auto;
-
-
+    position: relative;
+    min-width: 517px;
 }
 
 
@@ -27,13 +27,18 @@ body {
     float: left;
     width: 250px;
     margin-right: 10px;
+    position: absolute;
+    top: 109px;
+    bottom: 99px;
 
 }
 
 .content {
     background: rgb(247, 255, 253);
     color: rgb(56, 56, 56);
-    width: 100%;
+    margin-left: 250px;
+    padding: 10px;
+    min-height: 520px;
 
 }
 
