@@ -1,0 +1,72 @@
+body {
+    background: #FFF;
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+}
+
+.header {
+    background: #b3c5f5;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.container {
+    background: #616160;
+    width: 90%;
+    margin: auto;
+
+
+}
+
+
+.sidebar {
+    background: #cad7d6;
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+
+}
+
+.content {
+    background: rgb(247, 255, 253);
+    color: rgb(56, 56, 56);
+    width: 100%;
+
+}
+
+.content img {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    background: #b3c5f5;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    text-transform: capitalize;
+
+}
+
+ul li a:hover {
+    background-color: rgb(247, 255, 253);
+}
+
+ul li {
+    list-style: url(./images/книги.png)
+}
+
+h2 {
+    text-align: center;
+}
