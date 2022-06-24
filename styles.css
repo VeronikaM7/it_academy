@@ -1,0 +1,47 @@
+.content {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+
+}
+
+.man {
+    position: absolute;
+    top: 20px;
+    left: 790px;
+    z-index: -1;
+}
+
+.biohazard {
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    z-index: -1;
+}
+
+.circle {
+    position: absolute;
+    top: 160px;
+    left: 630px;
+    z-index: -1;
+}
+
+.smoke {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    z-index: 1;
+}
+
+.smoke:hover {
+    z-index: -4;
+}
