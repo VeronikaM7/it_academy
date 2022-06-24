@@ -5,69 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Книжный сервис</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="./img/logo.png" alt="logo">
-            </div>
-            <div>
-                <button style="background: #555555; color: #f65261;" type="button">+ADD MOVIE</button>
-            </div>
+    <div class="box">
+        <header class="header">
+            <h1>Книжный рекомендательный сервис</h1>
+        </header>
+        <div class="subscribe">
+            <a href="/">Вступить в клуб</a>
         </div>
+        <div class="container">
+            <aside class="sidebar">
+                <h2>Выберите жанр:</h2>
+                <ul>
+                    <li><a href="https://www.livelib.ru/genres">Бизнес-книги</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Классическая литература</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Зарубежная литература</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Русская литература</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Детские книги</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Детективы</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Фэнтези</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Фантастика</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Современная проза</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Приключения</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Ужасы, мистика</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Книги для подростков</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Любовные романы</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Книги по психологии</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Повести, рассказы</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Поэзия и драматургия</a></li>
+                    <li><a href="https://www.livelib.ru/genres">Наука и образование</a></li>
+                </ul>
+            </aside>
+            <main class="content">
+                <picture class="picture">
+                    <source media="(max-width: 320px)" srcset="./images/book-small.png"/>
+                    <source media="(max-width: 768px)" srcset="./images/book-medium.png"/>
+                    <source media="(max-width: 1440px)" srcset="./images/book.png"/>
+                    <img src='./images/book.png' alt='book'/>
+                </picture>
+                <p>Для многих людей чтение – самый лучший вид отдыха, который расслабляет и успокаивает. От
+                    увлекательной
+                    книги невозможно оторваться, пока не прочтешь ее «от корки до корки».</p>
 
-        <h1>FIND YOUR MOVIE</h1>
+                <p>Чтение развивает воображение и фантазию. Мир книг – прекрасный и удивительный. За каждой обложкой
+                    скрывается неповторимая история – со своими героями, событиями и атмосферой. Читая книги, мы
+                    погружаемся
+                    в этот мир, радуемся или печалимся вместе с персонажами, сочувствуем им или выражаем свое осуждение.
+                </p>
 
-        <form>
-            <input type="text" placeholder="What do you want to watch?" style="width:290px; height:35px;" />
-            <button style="width: 140px; height: 41px; background: #f65261; color: #fff;" type="submit">SEARCH</button>
-        </form>
-    </header>
-    <div class="menu-bar">
-        <nav>
-            <style>
-                ul.menu {
-                    margin: 3px;
-                    padding: 3px;
-                }
- 
+                <p>Чтение развивает усидчивость и умение самостоятельно находить информацию, выделять из нее главное.
+                </p>
 
-                
-                ul.menu li {
-                    margin: 0;
-                    padding: 0;
-                    text-align: center;
-                    background: #424242;
-                    display: inline-block;
-                    font-size: 10px;
-                }
+                <p>Чтение художественных и научно-популярных произведений расширяет эрудицию и кругозор, обогащает
+                    знаниями
+                    об истории, культуре, искусстве, науке. С начитанным человеком интересно разговаривать, потому что
+                    ему
+                    всегда есть о чем рассказать.</p>
 
-                ul.menu li a {
-                    color: white;
-                    display: block;
-                    padding: 5px 20px;
-                    text-decoration: none;
-                }
-            </style>
-            <ul class=menu>
-                <li><a href="1">ALL</a></li>
-                <li><a href="2">DOCUMENTARY</a></li>
-                <li><a href="3">COMEDY</a></li>
-                <li><a href="4">HORROR</a></li>
-                <li><a href="5">CRIME</a></li>
-            </ul>
-        </nav>
-        <form>
-            <label for="sort-by"></label>
-            <select name="" id="sort-by">
-                <option align="center" value="1">Popular</option>
-                <option align="center" value="1">Release Date</option>
-                <option align="center" value="1">IMDB Score</option>
-            </select>
-        </form>
+                <p>У людей, которые много читают, богатый словарный запас. Они легко выражают свою точку зрения, говорят
+                    правильно и красиво.</p>
+
+                <p>Чтение повышает грамотность. Читая текст, мы зрительно запоминаем, как пишутся слова, и потом не
+                    ошибаемся при письме. Иногда это даже называют «врожденной грамотностью».</p>
+
+                <p>Чтение книг раскрывает человеческую душу. Некоторые прочитанные истории могут запомниться на всю
+                    жизнь и
+                    даже повлиять на судьбу.</p>
+
+                <p>Книга – неисчерпаемый источник знаний и преданный друг, сопровождающий нас с самого раннего детства.
+                    Человек, который любит читать и размышлять о прочитанном, никогда не соскучится от безделья и
+                    одиночества.</p>
+            </main>
+        </div>
+        <footer class="footer">
+            <h2>Читайте вместе с нами!</h2>
+        </footer>
     </div>
 </body>
 

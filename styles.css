@@ -1,0 +1,139 @@
+body {
+    background: #FFF;
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        min-width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 417px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        min-width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .subscribe {
+        display: contents;
+    }
+
+}
+
+
+
+
+.box {
+    width: 90%;
+    margin: auto;
+
+}
+
+
+.header {
+    background: #b3c5f5;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.container {
+    background: #ffffff;
+    display: flex;
+}
+
+
+.sidebar {
+    background: #cad7d6;
+    padding: 30px;
+}
+
+.content {
+    background: rgb(220, 239, 234);
+    color: rgb(56, 56, 56);
+    padding: 30px;
+}
+
+.subscribe {
+    position: fixed;
+    top: 80px;
+    right: 15px;
+    padding: 10px;
+    background: #cad7d6;
+    text-transform: lowercase;
+    border-radius: 50%;
+    border: dashed white 2px;
+}
+
+
+.subscribe a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+
+.picture {
+    float: left;
+}
+
+
+.footer {
+    background: #b3c5f5;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    text-transform: capitalize;
+
+}
+
+a:hover {
+    background-color: rgb(247, 255, 253);
+}
+
+ul li {
+    list-style: url('./images/книга-для\ ссылок.png')
+}
+
+h2 {
+    text-align: center;
+}
