@@ -5,70 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="./img/logo.png" alt="logo">
-            </div>
-            <div>
-                <button style="background: #555555; color: #f65261;" type="button">+ADD MOVIE</button>
+    <form class="form">
+        <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+        <div class="content">
+            <label for="input-title" class="label-form">Название статьи:</label>
+            <input type="text" required class="form-control" id="input-title">
+        </div>
+        <div class="content">
+            <label for="input-rubric" class="label-form">Рубрика:</label>
+            <select name="rubric">
+                <option value="1">Програмирование</option>
+                <option value="2">Кулинария</option>
+                <option value="3">Искусство</option>
+                <option value="4">Новости спорта</option>
+                <option value="5">История</option>
+            </select>
+        </div>
+        <div class="content-label">
+            <label for="input-place" class="label-form">Публикация:</label>
+            <br>
+            <input type="radio"  name="place" value="1">на сайте<br>
+            <input type="radio"  name="place" value="1">в журнале<br>
+            <input type="radio"  name="place" value="1">на сайте и в журнале<br>
+        </div>
+        <div class="content">
+            <label for="input-comment" class="label-form">Разрешить комментарии:</label>
+            <input type="checkbox" class="box-form" id="input-comment">
+        </div>
+        <div class="content">
+            <p>Текст статьи:</p>
+            <textarea class="form-control"></textarea>
+            <div class="content">
+                <button type="submit">Опубликовать</button>
             </div>
         </div>
-
-        <h1>FIND YOUR MOVIE</h1>
-
-        <form>
-            <input type="text" placeholder="What do you want to watch?" style="width:290px; height:35px;" />
-            <button style="width: 140px; height: 41px; background: #f65261; color: #fff;" type="submit">SEARCH</button>
-        </form>
-    </header>
-    <div class="menu-bar">
-        <nav>
-            <style>
-                ul.menu {
-                    margin: 3px;
-                    padding: 3px;
-                }
- 
-
-                
-                ul.menu li {
-                    margin: 0;
-                    padding: 0;
-                    text-align: center;
-                    background: #424242;
-                    display: inline-block;
-                    font-size: 10px;
-                }
-
-                ul.menu li a {
-                    color: white;
-                    display: block;
-                    padding: 5px 20px;
-                    text-decoration: none;
-                }
-            </style>
-            <ul class=menu>
-                <li><a href="1">ALL</a></li>
-                <li><a href="2">DOCUMENTARY</a></li>
-                <li><a href="3">COMEDY</a></li>
-                <li><a href="4">HORROR</a></li>
-                <li><a href="5">CRIME</a></li>
-            </ul>
-        </nav>
-        <form>
-            <label for="sort-by"></label>
-            <select name="" id="sort-by">
-                <option align="center" value="1">Popular</option>
-                <option align="center" value="1">Release Date</option>
-                <option align="center" value="1">IMDB Score</option>
-            </select>
-        </form>
-    </div>
+    </form>
 </body>
 
 </html>
