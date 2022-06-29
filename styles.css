@@ -1,0 +1,10 @@
+svg {
+    transition: all .5s ease;
+}
+
+svg:hover {
+    stroke: rgb(228, 255, 50);
+    fill: rgb(140, 232, 112);
+    opacity: 0;
+
+}
